@@ -1,0 +1,80 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #53a0c4;
+    color: #fff;
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list li a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #73bf64;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.nav-list li a:hover {
+    background-color: #4d8136;
+}
+
+/* Media query para hacer la barra de navegación responsiva */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+    }
+}
+
+/* Estilos para el contenedor principal */
+.content {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #0b7d27;
+    background-color: #9cf0de;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar verticalmente */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilos para las imágenes de triatlón */
+.triathlon-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.triathlon-images img {
+    width: 23%; /* Para ajustar el tamaño de las imágenes */
+    margin: 10px; /* Agregar espacio entre las imágenes */
+}
+
+
+
+
+
+

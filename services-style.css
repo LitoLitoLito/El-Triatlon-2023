@@ -1,0 +1,47 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f0e3; /* Fondo cálido */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #e74c3c; /* Rojo cálido para el título */
+}
+
+/* Estilos para los recuadros */
+.services-box, .tips-box {
+    background-color: #ffe5d1; /* Fondo cálido para los recuadros */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #e74c3c; /* Rojo cálido para los encabezados */
+}
+
+ul {
+    list-style: disc; /* Utilizamos viñetas estilo disco */
+    margin-left: 20px; /* Margen a la izquierda para las viñetas */
+    color: #333; /* Color de texto predeterminado */
+}
+
+/* Estilos para los elementos de la lista */
+li {
+    margin-bottom: 10px;
+    color: #444; /* Color de texto más oscuro */
+}
+
+
+

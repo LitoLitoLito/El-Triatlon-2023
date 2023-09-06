@@ -1,0 +1,14 @@
+/* estilos.css */
+.container {
+    text-align: center; /* Centra el contenido del contenedor horizontalmente */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Centra las imágenes verticalmente */
+}
+
+img {
+    margin: 10px; /* Agrega un espacio entre las imágenes */
+}
